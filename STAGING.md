@@ -40,4 +40,8 @@ Render free instances sleep, so the 5 minute ping also keeps the API warm.
 Render dashboard -> service -> Logs. Production logs are JSON lines (`level`, `time`, `msg`, `requestId`, `statusCode`, `durationMs`). Hit `/api/health` and confirm a `GET /api/health 200` line appears. Set `LOG_LEVEL=warn` to see only warnings and errors.
 
 ## Evidence (screenshots and URLs)
-
+1. Live frontend URL ->
+2. Live API URL ->
+3. Sentry project URL ->
+4. UptimeRobot status page URL ->
+5. Screenshot of a successful GitHub Actions workflow run 
