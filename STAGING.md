@@ -39,5 +39,5 @@ Render free instances sleep, so the 5 minute ping also keeps the API warm.
 ## Verifying Pino logs on Render
 Render dashboard -> service -> Logs. Production logs are JSON lines (`level`, `time`, `msg`, `requestId`, `statusCode`, `durationMs`). Hit `/api/health` and confirm a `GET /api/health 200` line appears. Set `LOG_LEVEL=warn` to see only warnings and errors.
 
-## Evidence (screenshots)
+## Evidence (screenshots and URLs)
 
