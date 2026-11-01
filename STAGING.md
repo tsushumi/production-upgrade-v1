@@ -40,8 +40,15 @@ Render free instances sleep, so the 5 minute ping also keeps the API warm.
 Render dashboard -> service -> Logs. Production logs are JSON lines (`level`, `time`, `msg`, `requestId`, `statusCode`, `durationMs`). Hit `/api/health` and confirm a `GET /api/health 200` line appears. Set `LOG_LEVEL=warn` to see only warnings and errors.
 
 ## Evidence (screenshots and URLs)
-1. Live frontend URL ->
-2. Live API URL ->
-3. Sentry project URL ->
-4. UptimeRobot status page URL ->
-5. Screenshot of a successful GitHub Actions workflow run 
+1. Live frontend URL -> https://client-gamma-wine-88.vercel.app/
+2. Frontend error screenshot `![Frontend error](docs/screenshots/2-frontend-error.png)`
+3. Live API URL -> https://paylink-api-4ogn.onrender.com/
+4. Backend error screeenshot: `![Backend error](docs/screenshots/4-backend-error.png)`
+5. Sentry project backend error URL -> https://tboat-bs.sentry.io/issues/157650459/events/acd78885a26c4044b0e7f072bd8d5805/
+6. Sentry project frontend error URL -> https://tboat-bs.sentry.io/issues/157656258/events/77f8180a648a4cc882486a7bfb8e4b5d/
+7. UptimeRobot status page URL -> https://stats.uptimerobot.com/kX18wwBvlu
+8. UptimeRobot dashboard with both monitors Up screenshot: `![UptimeRobot](docs/screenshots/8-uptimerobot.png)`
+9. The "down" alert email screenshot: `![Down alert](docs/screenshots/9-down-email.png)`
+10. Email alerts configured for both monitors screenshot: `![Email alerts configured for both monitors](docs/screenshots/10-email-alerts-config.png)`
+11. Screenshot of a successful GitHub Actions workflow run: `![Successful workflow](docs/screenshots/11-successful-workflow.png)`
+12. Screenshot of Pino logs on Render: `![Pino logs on Render](docs/screenshots/12-Pino logs.png)`
